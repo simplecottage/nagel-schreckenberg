@@ -30,8 +30,8 @@ class Vehicle:
     speed: int
     road_index: int
     color: Tuple[int, int, int]
-    length: int = 15
-    width: int = 8
+    length: int = 25
+    width: int = 16
 
 class Stats:
     def __init__(self, history_length=300):  # 5 seconds at 60fps
